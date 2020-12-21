@@ -31,7 +31,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   /*int _counter = 0;*/
-  var rondom = new Random(); //乱数を生成する
+  var rondom = new Random(); //乱数を生成
   List<int> lotNumber = [1,2,3,4,5,6]; //抽選結果
   List<int> savedLotNumber = []; //保存された抽選結果
   void _rondom() {
